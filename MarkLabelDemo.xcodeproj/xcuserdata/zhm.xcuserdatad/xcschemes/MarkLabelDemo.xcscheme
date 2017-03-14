@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C996FE9A1E77C968002F6B4E"
+               BuildableName = "MarkLabelDemo.app"
+               BlueprintName = "MarkLabelDemo"
+               ReferencedContainer = "container:MarkLabelDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C996FEB31E77C968002F6B4E"
+               BuildableName = "MarkLabelDemoTests.xctest"
+               BlueprintName = "MarkLabelDemoTests"
+               ReferencedContainer = "container:MarkLabelDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C996FEBE1E77C968002F6B4E"
+               BuildableName = "MarkLabelDemoUITests.xctest"
+               BlueprintName = "MarkLabelDemoUITests"
+               ReferencedContainer = "container:MarkLabelDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C996FE9A1E77C968002F6B4E"
+            BuildableName = "MarkLabelDemo.app"
+            BlueprintName = "MarkLabelDemo"
+            ReferencedContainer = "container:MarkLabelDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C996FE9A1E77C968002F6B4E"
+            BuildableName = "MarkLabelDemo.app"
+            BlueprintName = "MarkLabelDemo"
+            ReferencedContainer = "container:MarkLabelDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C996FE9A1E77C968002F6B4E"
+            BuildableName = "MarkLabelDemo.app"
+            BlueprintName = "MarkLabelDemo"
+            ReferencedContainer = "container:MarkLabelDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
